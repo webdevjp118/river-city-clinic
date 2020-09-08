@@ -124,7 +124,7 @@ ul {
           max-width: initial;
           width: initial;
           grid-gap: 50px; } }
-      @media (min-width: 1024px) and (max-width: 1280px) {
+      @media (min-width: 1024px) and (max-width: 1800px) {
         .main-container .hero-banner-section .banner-content {
           left: 25px;
           grid-gap: 85px;
@@ -140,7 +140,7 @@ ul {
         @media (min-width: 768px) and (max-width: 1023px) {
           .main-container .hero-banner-section .banner-content .left-content {
             top: 30px; } }
-        @media (min-width: 1024px) and (max-width: 1280px) {
+        @media (min-width: 1024px) and (max-width: 1800px) {
           .main-container .hero-banner-section .banner-content .left-content {
             top: 40px; } }
         .main-container .hero-banner-section .banner-content .left-content p {
@@ -160,7 +160,7 @@ ul {
               font-size: 22px;
               line-height: 36px;
               padding: 12px; } }
-          @media (min-width: 1024px) and (max-width: 1280px) {
+          @media (min-width: 1024px) and (max-width: 1800px) {
             .main-container .hero-banner-section .banner-content .left-content p {
               font-size: 22px;
               padding-bottom: 15px;
@@ -173,7 +173,7 @@ ul {
             .main-container .hero-banner-section .banner-content .left-content .big-text {
               margin: 0 0 30px;
               text-align: center; } }
-          @media (min-width: 1024px) and (max-width: 1280px) {
+          @media (min-width: 1024px) and (max-width: 1800px) {
             .main-container .hero-banner-section .banner-content .left-content .big-text {
               margin: 0 0 50px; } }
           .main-container .hero-banner-section .banner-content .left-content .big-text h3 {
@@ -186,7 +186,7 @@ ul {
                 font-size: 50px;
                 line-height: 55px;
                 padding: 10px; } }
-            @media (min-width: 1024px) and (max-width: 1280px) {
+            @media (min-width: 1024px) and (max-width: 1800px) {
               .main-container .hero-banner-section .banner-content .left-content .big-text h3 {
                 font-size: 58px;
                 line-height: 70px; } }
@@ -208,7 +208,7 @@ ul {
                 padding: 0 10px;
                 position: initial;
                 text-align: center; } }
-            @media (min-width: 1024px) and (max-width: 1280px) {
+            @media (min-width: 1024px) and (max-width: 1800px) {
               .main-container .hero-banner-section .banner-content .left-content .big-text p {
                 font-size: 22px;
                 line-height: 41px; } }
@@ -238,7 +238,7 @@ ul {
               height: 55px;
               font-size: 24px;
               align-items: center; } }
-          @media (min-width: 1024px) and (max-width: 1280px) {
+          @media (min-width: 1024px) and (max-width: 1800px) {
             .main-container .hero-banner-section .banner-content .left-content button {
               width: 458px;
               height: 70px;
@@ -251,7 +251,7 @@ ul {
             @media (min-width: 320px) and (max-width: 1023px) {
               .main-container .hero-banner-section .banner-content .left-content button img {
                 display: none; } }
-            @media (min-width: 1024px) and (max-width: 1280px) {
+            @media (min-width: 1024px) and (max-width: 1800px) {
               .main-container .hero-banner-section .banner-content .left-content button img {
                 right: 25px; } }
       @media (min-width: 320px) and (max-width: 1023px) {
@@ -970,6 +970,9 @@ ul {
         margin-right: 25px; }
     .main-container .map-address-section .map-box {
       background: #e8e8e8; }
+      .main-container .map-address-section .map-box iframe {
+        width: 100% !important;
+        height: 100% !important; }
   .main-container .building-section {
     padding: 0;
     display: grid;
