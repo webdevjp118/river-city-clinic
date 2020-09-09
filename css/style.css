@@ -1104,7 +1104,8 @@ ul {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 700px; }
+    grid-template-rows: auto;
+    min-height: 700px; }
     @media (min-width: 320px) and (max-width: 767px) {
       .main-container .nmn-therapy-section {
         grid-template-columns: 1fr;
@@ -1116,7 +1117,7 @@ ul {
         grid-template-rows: auto; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .nmn-therapy-section {
-        grid-template-rows: 460px; } }
+        grid-template-rows: auto; } }
     .main-container .nmn-therapy-section .therapy-detail {
       padding: 0 120px;
       background: #eaf3fa;
