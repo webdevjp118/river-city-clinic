@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif; }
+  font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif}
 
 h2, p {
   color: #666666;
@@ -215,7 +215,7 @@ ul {
           .main-container .hero-banner-section .banner-content .left-content .big-text p.bottom-zero {
             bottom: 0;
             margin: 0;
-            letter-spacing: -7px; }
+            letter-spacing: -1px; }
         .main-container .hero-banner-section .banner-content .left-content button {
           border: none;
           background: none;
@@ -823,10 +823,16 @@ ul {
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .middle-logo-section {
         padding: 50px 0; } }
-    .main-container .middle-logo-section h2 {
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 60px; }
+    .main-container .middle-logo-section .clinic-title {
+      font-weight: normal !important;
+      font-size: 24px !important;
+      line-height: 60px !important; }
+    .main-container .middle-logo-section .title-underbar {
+      height: 1px;
+      background-color: #666666;
+      width: 154px;
+      margin: 0 auto 80px;
+    }
     .main-container .middle-logo-section .section-heading {
       margin: 0 0 80px; }
       @media (min-width: 320px) and (max-width: 1023px) {
@@ -976,20 +982,20 @@ ul {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 822px; }
+    grid-template-rows: auto; }
     @media (min-width: 320px) and (max-width: 480px) {
       .main-container .building-section {
         grid-template-columns: 1fr;
-        grid-template-rows: 280px 280px; } }
+        grid-template-rows: auto; } }
     @media (min-width: 481px) and (max-width: 1023px) {
       .main-container .building-section {
-        grid-template-rows: 380px; } }
+        grid-template-rows: auto; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .building-section {
-        grid-template-rows: 600px; } }
+        grid-template-rows: auto; } }
     .main-container .building-section img {
       width: 100%;
-      height: 100%; }
+      height: auto; }
   .main-container .team-section {
     padding: 68px 0;
     background: #f6f6f6; }
