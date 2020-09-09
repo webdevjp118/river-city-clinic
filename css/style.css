@@ -1239,7 +1239,8 @@ ul {
         color: #43a5d9;
         font-size: 22px;
         line-height: 22px;
-        margin: 0; }
+        margin: 0;
+        font-weight: bold; }
         @media (min-width: 320PX) and (max-width: 1023px) {
           .main-container .nmn-therapy-section .t-white-box h2 {
             line-height: 45px; } }
