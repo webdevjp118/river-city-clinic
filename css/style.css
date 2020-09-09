@@ -1103,7 +1103,7 @@ ul {
   .main-container .nmn-therapy-section {
     padding: 0;
     display: grid;
-    grid-template-columns: 766px 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 700px; }
     @media (min-width: 320px) and (max-width: 1023px) {
       .main-container .nmn-therapy-section {
@@ -1111,15 +1111,11 @@ ul {
         grid-template-rows: auto; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .nmn-therapy-section {
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: 460px; } }
-    @media (min-width: 1281px) and (max-width: 1851px) {
-      .main-container .nmn-therapy-section {
-        grid-template-columns: 640px 1fr; } }
     .main-container .nmn-therapy-section .therapy-detail {
       padding: 0 120px;
       background: #eaf3fa;
-      width: 1774px; }
+      margin-right: 145px; }
       @media (min-width: 320px) and (max-width: 1023px) {
         .main-container .nmn-therapy-section .therapy-detail {
           padding: 0 20px 20px;
@@ -1135,10 +1131,44 @@ ul {
     .main-container .nmn-therapy-section .therapy-img {
       position: absolute;
       right: 0;
-      top: 45px; }
-      @media (min-width: 320px) and (max-width: 1850px) {
+      top: 45px;
+      width: 1153px;
+      height: 700px;
+      background: url(../images/therapy-img.png);
+      background-position: center; }
+      @media (min-width: 768px) and (max-width: 910px) {
         .main-container .nmn-therapy-section .therapy-img {
-          position: initial; } }
+          width: 40%;
+          height: 495px;
+          top: 20px; } }
+      @media (min-width: 911px) and (max-width: 1023px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 50%;
+          height: 495px;
+          top: 20px; } }
+      @media (min-width: 1024px) and (max-width: 1150px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 54%;
+          height: 445px; } }
+      @media (min-width: 1151px) and (max-width: 1280px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 58%;
+          height: 435px; } }
+      @media (min-width: 1281px) and (max-width: 1400px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 54%; } }
+      @media (min-width: 1401px) and (max-width: 1550px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 58%; } }
+      @media (min-width: 1451px) and (max-width: 1600px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 60%; } }
+      @media (min-width: 1601px) and (max-width: 1700px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 62%; } }
+      @media (min-width: 1701px) and (max-width: 1850px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          width: 66%; } }
       .main-container .nmn-therapy-section .therapy-img img {
         width: 100%;
         height: 100%; }
@@ -1153,11 +1183,15 @@ ul {
           line-height: 80px;
           margin: 0 0 20px;
           text-align: center; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .main-container .nmn-therapy-section h2 {
+          max-width: 410px; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section h2 {
           font-size: 60px;
           text-align: center;
-          margin: 0 0 15px; } }
+          margin: 0 0 15px;
+          max-width: 410px; } }
     .main-container .nmn-therapy-section .grid-box {
       display: grid;
       grid-template-columns: 1fr 2fr;
@@ -1169,13 +1203,12 @@ ul {
       max-width: 500px;
       padding: 12px;
       background: #fff; }
-      @media (min-width: 320PX) and (max-width: 1023px) {
+      @media (min-width: 320PX) and (max-width: 767px) {
         .main-container .nmn-therapy-section .t-white-box {
           margin: auto; } }
-      @media (min-width: 1024px) and (max-width: 1280px) {
+      @media (min-width: 768px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section .t-white-box {
-          width: 410px;
-          margin: 0 auto; } }
+          width: 410px; } }
       .main-container .nmn-therapy-section .t-white-box p {
         font-size: 18px;
         line-height: 30px;
@@ -1208,20 +1241,23 @@ ul {
           font-size: 24px; }
     .main-container .nmn-therapy-section .t-white-box.margin-45 {
       margin: 0 0 45px; }
-      @media (min-width: 320PX) and (max-width: 1023px) {
+      @media (min-width: 320PX) and (max-width: 767px) {
         .main-container .nmn-therapy-section .t-white-box.margin-45 {
           margin: 0 auto 20px; } }
+      @media (min-width: 768PX) and (max-width: 1023px) {
+        .main-container .nmn-therapy-section .t-white-box.margin-45 {
+          margin: 0 0 20px; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section .t-white-box.margin-45 {
-          margin: 0 auto 15px; } }
+          margin: 0 0 15px; } }
     .main-container .nmn-therapy-section .t-white-box.margin-55 {
       margin: 0 0 55px; }
       @media (min-width: 320PX) and (max-width: 1023px) {
         .main-container .nmn-therapy-section .t-white-box.margin-55 {
-          margin: 0 auto 20px; } }
+          margin: 0 0 20px; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section .t-white-box.margin-55 {
-          margin: 0 auto 30px; } }
+          margin: 0 0 30px; } }
   .main-container .faq-section {
     padding: 70px 0;
     background-color: #f6f6f6; }
