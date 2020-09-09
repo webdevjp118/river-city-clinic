@@ -1,8 +1,9 @@
+@charset "UTF-8";
 *, body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif}
+  font-family: "πâíπéñπâ¬πé¬", Meiryo, "∩╝¡∩╝│ ∩╝░πé┤πé╖πââπé»", "MS PGothic", sans-serif; }
 
 h2, p {
   color: #666666;
@@ -823,21 +824,23 @@ ul {
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .middle-logo-section {
         padding: 50px 0; } }
+    .main-container .middle-logo-section .section-heading {
+      margin: 0 0 10px; }
+      @media (min-width: 320px) and (max-width: 1023px) {
+        .main-container .middle-logo-section .section-heading {
+          margin: 0 0 25px; } }
     .main-container .middle-logo-section .clinic-title {
       font-weight: normal !important;
       font-size: 24px !important;
       line-height: 60px !important; }
     .main-container .middle-logo-section .title-underbar {
       height: 1px;
-      background-color: #666666;
+      background-color: #66666666;
       width: 154px;
-      margin: 0 auto 80px;
-    }
-    .main-container .middle-logo-section .section-heading {
-      margin: 0 0 80px; }
+      margin: 0 auto 80px; }
       @media (min-width: 320px) and (max-width: 1023px) {
-        .main-container .middle-logo-section .section-heading {
-          margin: 0 0 25px; } }
+        .main-container .middle-logo-section .title-underbar {
+          margin: 0 auto 25px; } }
     .main-container .middle-logo-section .middle-logo {
       text-align: center; }
       @media (min-width: 320px) and (max-width: 767px) {
@@ -1108,25 +1111,42 @@ ul {
         grid-template-rows: auto; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .nmn-therapy-section {
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 470px; } }
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 460px; } }
+    @media (min-width: 1281px) and (max-width: 1851px) {
+      .main-container .nmn-therapy-section {
+        grid-template-columns: 640px 1fr; } }
     .main-container .nmn-therapy-section .therapy-detail {
       padding: 0 120px;
-      background: #eaf3fa; }
+      background: #eaf3fa;
+      width: 1774px; }
       @media (min-width: 320px) and (max-width: 1023px) {
         .main-container .nmn-therapy-section .therapy-detail {
-          padding: 0 20px 20px; } }
+          padding: 0 20px 20px;
+          width: auto; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section .therapy-detail {
-          padding: 0 20px 20px; } }
-    .main-container .nmn-therapy-section .therapy-img img {
-      width: 100%;
-      height: 100%; }
+          padding: 0 20px 20px;
+          width: auto; } }
+      @media (min-width: 1281px) and (max-width: 1850px) {
+        .main-container .nmn-therapy-section .therapy-detail {
+          width: auto;
+          padding: 0 50px; } }
+    .main-container .nmn-therapy-section .therapy-img {
+      position: absolute;
+      right: 0;
+      top: 45px; }
+      @media (min-width: 320px) and (max-width: 1850px) {
+        .main-container .nmn-therapy-section .therapy-img {
+          position: initial; } }
+      .main-container .nmn-therapy-section .therapy-img img {
+        width: 100%;
+        height: 100%; }
     .main-container .nmn-therapy-section h2 {
       color: white;
       font-size: 80px;
       line-height: 80px;
-      margin: 0 0 100px; }
+      margin: 0 0 135px; }
       @media (min-width: 320PX) and (max-width: 1023px) {
         .main-container .nmn-therapy-section h2 {
           font-size: 40px;
@@ -1154,7 +1174,8 @@ ul {
           margin: auto; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section .t-white-box {
-          width: 410px; } }
+          width: 410px;
+          margin: 0 auto; } }
       .main-container .nmn-therapy-section .t-white-box p {
         font-size: 18px;
         line-height: 30px;
@@ -1171,7 +1192,7 @@ ul {
           .main-container .nmn-therapy-section .t-white-box h2 {
             line-height: 45px; } }
       .main-container .nmn-therapy-section .t-white-box h3 {
-        font-size: 12px;
+        font-size: 20px;
         color: #777777;
         margin: 0 0 15px; }
       .main-container .nmn-therapy-section .t-white-box p.price {
@@ -1192,7 +1213,7 @@ ul {
           margin: 0 auto 20px; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section .t-white-box.margin-45 {
-          margin: 0 0 15px; } }
+          margin: 0 auto 15px; } }
     .main-container .nmn-therapy-section .t-white-box.margin-55 {
       margin: 0 0 55px; }
       @media (min-width: 320PX) and (max-width: 1023px) {
@@ -1200,7 +1221,7 @@ ul {
           margin: 0 auto 20px; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .nmn-therapy-section .t-white-box.margin-55 {
-          margin: 0 0 30px; } }
+          margin: 0 auto 30px; } }
   .main-container .faq-section {
     padding: 70px 0;
     background-color: #f6f6f6; }

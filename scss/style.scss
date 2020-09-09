@@ -1309,26 +1309,43 @@ ul {
         padding: 0;
         display: grid;
         grid-template-columns: 766px 1fr;
-        grid-template-rows: auto;
+        // grid-template-columns: 1fr;
+        grid-template-rows: 700px;
         @media(min-width:320px) and (max-width:1023px){
             grid-template-columns: 1fr;
             grid-template-rows: auto;
         }
         @media (min-width: 1024px) and (max-width: 1280px) {
-            grid-template-columns: 1fr 2fr;
-            grid-template-rows: auto;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 460px;
+        }
+        @media (min-width:1281px) and (max-width:1851px){
+            grid-template-columns: 640px 1fr;
         }
         .therapy-detail {
             padding: 0 120px;
             background: #eaf3fa;
+            width: 1774px;
             @media(min-width:320px) and (max-width:1023px){
-            padding: 0 20px 20px;   
+            padding: 0 20px 20px;
+            width: auto;   
             }
             @media (min-width: 1024px) and (max-width: 1280px) {
                 padding: 0 20px 20px;
+                width: auto;
+            }
+            @media (min-width:1281px) and (max-width:1850px){
+                width: auto;
+                padding: 0 50px;
             }
         }
         .therapy-img {
+            position: absolute;
+            right: 0;
+            top: 45px;
+            @media (min-width:320px) and (max-width:1850px) {
+                position: initial;
+            }
             img {
                 width: 100%;
                 height: 100%;
@@ -1338,7 +1355,7 @@ ul {
             color: white;
             font-size: 80px;
             line-height: 80px;
-            margin: 0 0 100px;
+            margin: 0 0 135px;
             @media(min-width:320PX) and (max-width:1023px){
                 font-size: 40px;
                 line-height: 80px;
@@ -1368,6 +1385,7 @@ ul {
             }
             @media (min-width: 1024px) and (max-width: 1280px) {
                 width: 410px;
+                margin: 0 auto;
             }
             p {
                 font-size: 18px;
@@ -1412,7 +1430,7 @@ ul {
                 margin: 0 auto 20px;
             }
             @media(min-width: 1024px) and (max-width: 1280px){
-                margin: 0 0 15px;
+                margin: 0 auto 15px;
             }
         }
         .t-white-box.margin-55 {
@@ -1421,7 +1439,7 @@ ul {
                 margin: 0 auto 20px;
             }
             @media(min-width: 1024px) and (max-width: 1280px){
-                margin: 0 0 30px;
+                margin: 0 auto 30px;
             }
         }
     }
