@@ -1046,7 +1046,7 @@ ul {
     .map-address-section {
         padding: 0;
         display: grid;
-        grid-template-columns: 874px 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 666px;
         @media(min-width:320px) and (max-width:1023px){
             grid-template-columns: 1fr;
@@ -1054,7 +1054,6 @@ ul {
         }
         @media (min-width: 1024px) and (max-width: 1280px) {
             grid-template-rows: auto;
-            grid-template-columns: 1fr 1.4fr;
         }
         h2 {
             text-align: center;
@@ -1150,7 +1149,7 @@ ul {
     .building-section {
         padding: 0;
         display: grid;
-        grid-template-columns: 1fr 1.14fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 822px;
         @media (min-width: 320px) and (max-width: 480px) {
             grid-template-columns: 1fr;

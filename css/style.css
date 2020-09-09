@@ -886,7 +886,7 @@ ul {
   .main-container .map-address-section {
     padding: 0;
     display: grid;
-    grid-template-columns: 874px 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 666px; }
     @media (min-width: 320px) and (max-width: 1023px) {
       .main-container .map-address-section {
@@ -894,8 +894,7 @@ ul {
         grid-template-rows: auto 300px; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .map-address-section {
-        grid-template-rows: auto;
-        grid-template-columns: 1fr 1.4fr; } }
+        grid-template-rows: auto; } }
     .main-container .map-address-section h2 {
       text-align: center;
       font-size: 48px;
@@ -976,7 +975,7 @@ ul {
   .main-container .building-section {
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1.14fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 822px; }
     @media (min-width: 320px) and (max-width: 480px) {
       .main-container .building-section {
